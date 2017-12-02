@@ -1,0 +1,283 @@
+html {
+    color: #000;
+    background: #FFF
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset, img {
+    border: 0
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ol, ul {
+    list-style: none
+}
+
+caption, th {
+    text-align: left
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+}
+
+q:before, q:after {
+    content: ''
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+sup {
+    vertical-align: text-top
+}
+
+sub {
+    vertical-align: text-bottom
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%
+}
+
+legend {
+    color: #000
+}
+
+#yui3-css-stamp.cssreset {
+    display: none
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*标题部分*/
+.header {
+    width: 100%;
+    height: 66px;
+    background-color: black;
+}
+
+.header .header_center {
+    width: 1170px;
+    height: 100%;
+    /*background-color: #ff6f8d;*/
+    margin: 0 auto;
+}
+
+.header .header_center img {
+    float: left;
+    padding-left: 10px;
+}
+
+.header .header_center .header_ul {
+    margin-left: 250px;
+    width: 700px;
+    height: 100%;
+    /*background-color: #c650ff;*/
+    font-size: 13px;
+
+}
+
+.header .header_center ul li {
+    list-style: none;
+    float: left;
+    line-height: 66px;
+    text-align: center;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.header .header_center ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*轮播图区域*/
+.lbtu {
+    width: 100%;
+    height: 560px;
+    /*background-color: #a13fdd;*/
+
+}
+
+.lbtu ul {
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.lbtu ul li {
+    float: left;
+    height: 560px;
+    list-style: none;
+}
+
+.lbtu ul li img {
+    height: 560px;
+}
+
+/*内容区域*/
+.content {
+    width: 100%;
+    height: 732px;
+    background-color: #EFEEEB;
+}
+
+.content > ul {
+    width: 100%;
+    height: 294px;
+    margin-top: 6px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #58fcff;*/
+}
+
+.content > ul > li {
+    width: 442px;
+    height: 294px;
+    float: left;
+    list-style: none;
+    margin-right: 6px;
+    /*background-color: #ff6f8d;*/
+}
+
+.content ul li img {
+    width: 442px;
+    height: 294px;
+}
+
+.about {
+    width: 1200px;
+    height: 357px;
+    margin-top: 82px;
+    margin-left: 100px;
+    overflow: hidden;
+    /*background-color: #3b3dff;*/
+}
+
+.about_together {
+    width: 195px;
+    height: 305px;
+    float: left;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    /*border-color: #ff2d28;*/
+    box-sizing: border-box;
+    /*background-color: #a13fdd;*/
+}
+
+.about_together h2 {
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 196px;
+    display: block;
+
+}
+
+.about .about_together ul {
+    width: 196px;
+    height: 244px;
+    /*background-color: #46ffdd;*/
+}
+
+.about .about_together ul li {
+    width: 196px;
+    float: none;
+    font-size: 12px;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    line-height: 22px;
+    margin-right: 0;
+    display: block;
+}
+
+.about .about_together ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #606463;
+}
+
+.about .about_together ul li a:hover {
+    color: #ff8c85;
+}
+
+/*结尾部分*/
+.footer {
+    width: 100%;
+    height: 230px;
+    /*background-color: #ff84b1;*/
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer .footer_center {
+    width: 400px;
+    height: 130px;
+    margin: 0 auto;
+    /*background-color: #d3ff3b;*/
+}
+
+.footer .footer_center img {
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.footer .footer_logo{
+    width: 270px;
+    height: 65px;
+    overflow:hidden;
+}
+.footer .footer_logo ul {
+    padding-left: 125px;
+    margin-top: -14px;
+    margin-left: 3px;
+    width: 200px;
+    height: 55px;
+    /*background-color: #a13fdd;*/
+}
+
+.footer .footer_logo ul li {
+    list-style: none;
+    float: left;
+}
+.footer .footer_words{
+    width: 400px;
+    height: 100px;
+    /*background-color: #ffef6c;*/
+    margin: 0 auto;
+}
+.footer .footer_words p{
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.footer .footer_words p a:hover{
+    color: #ffa881;
+}
+.footer .footer_words p a{
+    text-decoration: none;
+    color: #666;
+
+}
